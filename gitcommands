@@ -1,1 +1,4 @@
 #git
+git config --global user.name "Surya DaVinci"
+git config --global user.email suryadavinci@gmail.com
+git config --global credential.helper "cache --timeout=10800"
