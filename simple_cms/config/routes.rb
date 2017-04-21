@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   get 'demo/index'
   get 'demo/summa'
+  get 'demo/other_summa'
+  get 'demo/google'
   #get ':controller(/:action(/:id))'
   #match 'demo/index', :to => "demo#index", :via => :get
   #match ':controller(/:action(/:id))', :via => :get
