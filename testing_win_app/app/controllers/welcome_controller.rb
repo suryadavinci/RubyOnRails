@@ -1,8 +1,8 @@
 class WelcomeController < ApplicationController
   def index
-    render("index")
+#    render("index")
   end
   def home
-    render("home")
+#    render("home")
   end
 end
