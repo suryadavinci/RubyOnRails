@@ -1,10 +1,11 @@
 class DemoController < ApplicationController
   layout false
   def index
-  	render('summa')
+  	render('index')
   end
   def summa
-  	render('index')
+    @array = [1,2,35,1,34]
+  	render('summa')
   end
   def other_summa
     redirect_to(:controller => 'demo', :action => 'index')
