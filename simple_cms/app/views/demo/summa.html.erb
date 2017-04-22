@@ -1,1 +1,10 @@
 summa view
+
+<% @array.each do |n|%>
+<center><%= n %></center>
+<% end %>
+<br/>
+<a href="/demo/index">GoToIndex</a>
+<br/>
+<%= link_to("GoToIndex",{:controller => "demo" , :action => "index"}) %>
+<br/>
