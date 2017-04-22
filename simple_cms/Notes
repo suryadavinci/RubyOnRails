@@ -1,3 +1,9 @@
 Completed View Templates
 Instance Variables InProgress
 https://www.youtube.com/watch?v=JOW4q0HUj-8&list=PLskZP4iE0Xzb7tp95ruIxJnXW12lOzeLh&index=16
+Send instance variables from control to view
+instance variables can be accessed from view using <%= %> scriptlets
+
+Links Studied
+But still unclear how it works. So need to redo Links.
+https://www.youtube.com/watch?v=fcFEFbzOhyc&list=PLskZP4iE0Xzb7tp95ruIxJnXW12lOzeLh&index=17
