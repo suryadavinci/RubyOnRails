@@ -1,0 +1,13 @@
+1.
+rails new spblog -d mysql
+bundle install
+create database spblog_development;
+grant all privileges to spblog_development.*
+to 'sbadmin'@'localhost' identified
+by 'test';
+
+rails generate scaffold User password:string email:string
+rails db:migrate
+
+
+--and done
