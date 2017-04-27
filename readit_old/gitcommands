@@ -1,7 +1,0 @@
-#git
-git status
-git add -A
-#git add filename
-git commit -m "latest code"
-git push origin master 
-suryadavinci@gmail.com

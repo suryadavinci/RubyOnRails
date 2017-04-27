@@ -1,7 +1,0 @@
-Steps
-rails new readit -d mysql
-cd readit
-bundle install
-
-subl .
-export PS1='\w\[\033[00m\]: '
