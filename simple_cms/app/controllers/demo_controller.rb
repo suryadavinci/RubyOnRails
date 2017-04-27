@@ -1,6 +1,13 @@
 class DemoController < ApplicationController
   layout false
   def index
+
+    if(params[:id] != nil)
+      @id = params[:id]
+    end
+    if(params[:page] != nil)
+      @page = params[:page]
+    end
   	render('index')
   end
   def summa
