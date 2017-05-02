@@ -13,9 +13,7 @@
  *= require_tree .
  *= require_self
  */
-
 h1,h2 {
   color: white;
   background: black;
-  padding: 15px;
 }
